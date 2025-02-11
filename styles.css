@@ -1,0 +1,58 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    background-image: url('https://i.gyazo.com/44117f31bccfd37ace64a1f6d73b6e00.jpg'); /* Direct URL to the image */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px; /* Set a fixed height for the container */
+    margin: 0; /* Ensure no margin around the container */
+    padding: 0px;
+}
+
+.container h1 {
+    position: absolute;
+    bottom: 1px; /* Adjust the top position to move the header closer to the top */
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(255, 215, 14);
+    font-size: 6em;
+    font-family: 'Dancing Script', cursive;
+}
+
+h2 {
+    font-size: 3.25em; /* Make the heading larger */
+    text-align: left; /* Center the heading */
+    margin-top: 40px; /* Add some space above the heading */
+    color: rgb(167, 42, 127);
+    font-family: 'Dancing Script', cursive;
+    padding: 0 20px;
+}
+
+.content {
+    padding: 20px; /* Add padding around the content */
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background */
+    margin: 0 20px; /* Add margin around the content */
+}
+
+p {
+    padding-right: 500px; /* Add horizontal padding to the paragraph */
+    font-size: 1.25em;
+    font-weight: bold;
+    line-height: 1.5;
+    color:rgb(0, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.side-image {
+    float: right; /* Float the image to the right */
+    margin-left: 20px; /* Add some space between the image and the text */
+    width:450px; /* Set a fixed width for the image */
+    height: auto; /* Maintain the aspect ratio */
+}
