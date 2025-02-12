@@ -2,6 +2,30 @@ html, body {
     margin: 0;
     padding: 0;
     width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: pink; /* Set the background color to pink */
+    padding: 10px 0; /* Add padding to the top and bottom */
+    text-align: center; /* Center the text */
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline; /* Display list items in a row */
+    margin: 0 15px; /* Add margin between the links */
+}
+
+.navbar ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Set link color */
+    font-weight: bold; /* Make the text bold */
 }
 
 .container {
