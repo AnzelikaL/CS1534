@@ -78,6 +78,13 @@ p {
     font-family: 'Times New Roman', Times, serif; /* Use Times New Roman */
 }
 
+.map-container {
+    float: right;
+    display: block; /* Ensure the map container is a block element */
+    margin-top: 20px; /* Add some space above the map */
+    margin-bottom: 20px; /* Add some space below the map */
+    clear: both;
+}
 
 .side-image {
     float: right; /* Float the image to the right */
@@ -85,6 +92,7 @@ p {
     margin-bottom: 20px;
     width:450px; /* Set a fixed width for the image */
     height: auto; /* Maintain the aspect ratio */
+    clear: both;
 }
 
 .history-side-image {
