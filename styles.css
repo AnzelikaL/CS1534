@@ -233,3 +233,25 @@ p {
     font-size: 1em; /* Ensure consistent font size */
     line-height: 1.0; /* Ensure consistent line height */
 }
+
+.full-width {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.visit-side-image {
+    float: right; /* Float the image to the right */
+    margin-left: 20px; /* Add some space between the image and the text */
+    margin-bottom: 20px;
+    width: 450px; /* Set a fixed width for the image */
+    height: auto; /* Maintain the aspect ratio */
+    clear: both;
+}
+
+.description {
+    display: block;
+    font-size: 0.9em;
+    color: gray;
+    margin-top: 5px;
+}
