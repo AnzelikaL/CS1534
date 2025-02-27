@@ -39,7 +39,7 @@ h2 {
 
 .navbar {
     background-color: pink; /* Set the background color to pink */
-    padding: 10px 0; /* Add padding to the top and bottom */
+    padding: 8px 0; /* Add padding to the top and bottom */
     text-align: center; /* Center the text */
 }
 
@@ -47,6 +47,8 @@ h2 {
     list-style-type: none; /* Remove bullet points */
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center; /* Center the links */
 }
 
 .navbar ul li {
@@ -198,7 +200,7 @@ p {
 
 .visit-navbar {
     background-color: pink; /* Set the background color to pink */
-    padding: 10px 0; /* Add padding to the top and bottom */
+    padding: 5px 0; /* Add padding to the top and bottom */
     text-align: center; /* Center the text */
 }
 
@@ -207,7 +209,7 @@ p {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center; /* Center the navbar items */
+    justify-content: center;
 }
 
 .visit-navbar ul li {
@@ -218,4 +220,6 @@ p {
     text-decoration: none; /* Remove underline from links */
     color: black; /* Set link color */
     font-weight: bold; /* Make the text bold */
+    font-size: 1em; /* Ensure consistent font size */
+    line-height: 1.0; /* Ensure consistent line height */
 }
